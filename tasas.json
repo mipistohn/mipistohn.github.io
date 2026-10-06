@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-10-06T01:35:56.576Z",
+  "updated_at": "2026-10-06T17:35:06.338Z",
   "base": "HNL",
   "format_version": 2,
   "note": "format_version 2: cada moneda tiene { bid, ask, mid }. bid=tasa compra del banco (cuando TÚ vendes esa moneda), ask=tasa venta (cuando TÚ compras). USD es la mediana de los bancos de \"bancos\" (o el BCH si ninguno responde); el resto deriva de la referencia internacional con spread 0.5%.",
   "source": "Bancos de Honduras (USD) + https://open.er-api.com/v6/latest/USD",
   "rates": {
     "USD": {
-      "bid": 26.8901,
-      "ask": 27.0246,
-      "mid": 26.9573
+      "bid": 26.892,
+      "ask": 27.0265,
+      "mid": 26.9592
     },
     "EUR": {
       "bid": 30.0621,
@@ -36,40 +36,40 @@
       "mid": 0.0586
     },
     "PAB": {
-      "bid": 26.8901,
-      "ask": 27.0246,
-      "mid": 26.9573
+      "bid": 26.892,
+      "ask": 27.0265,
+      "mid": 26.9592
     }
   },
   "bancos": {
     "promerica": {
       "nombre": "Promerica",
-      "bid": 26.8901,
-      "ask": 27.0246
+      "bid": 26.892,
+      "ask": 27.0265
     },
     "ficohsa": {
       "nombre": "Ficohsa",
-      "bid": 26.8901,
-      "ask": 27.0246
+      "bid": 26.892,
+      "ask": 27.0265
     },
     "occidente": {
       "nombre": "Banco de Occidente",
-      "bid": 26.8901,
-      "ask": 27.0246
+      "bid": 26.892,
+      "ask": 27.0265
     },
     "atlantida": {
       "nombre": "Banco Atlántida",
-      "bid": 26.8901,
-      "ask": 27.0246
+      "bid": 26.892,
+      "ask": 27.0265
     }
   },
   "_legacy_rates_for_compat": {
-    "USD": 26.9573,
+    "USD": 26.9592,
     "EUR": 30.1374,
     "GTQ": 3.5151,
     "NIO": 0.7304,
     "MXN": 1.4849,
     "CRC": 0.0586,
-    "PAB": 26.9573
+    "PAB": 26.9592
   }
 }
