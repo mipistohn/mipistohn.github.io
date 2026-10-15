@@ -1,75 +1,75 @@
 {
-  "updated_at": "2026-10-14T23:32:40.816Z",
+  "updated_at": "2026-10-15T15:57:18.711Z",
   "base": "HNL",
   "format_version": 2,
   "note": "format_version 2: cada moneda tiene { bid, ask, mid }. bid=tasa compra del banco (cuando TÚ vendes esa moneda), ask=tasa venta (cuando TÚ compras). USD es la mediana de los bancos de \"bancos\" (o el BCH si ninguno responde); el resto deriva de la referencia internacional con spread 0.5%.",
   "source": "Bancos de Honduras (USD) + https://open.er-api.com/v6/latest/USD",
   "rates": {
     "USD": {
-      "bid": 26.8927,
-      "ask": 27.0272,
-      "mid": 26.9599
+      "bid": 26.8943,
+      "ask": 27.0288,
+      "mid": 26.9616
     },
     "EUR": {
-      "bid": 29.9504,
-      "ask": 30.1005,
-      "mid": 30.0255
+      "bid": 29.9503,
+      "ask": 30.1004,
+      "mid": 30.0253
     },
     "GTQ": {
-      "bid": 3.5018,
-      "ask": 3.5194,
-      "mid": 3.5106
+      "bid": 3.5042,
+      "ask": 3.5218,
+      "mid": 3.513
     },
     "NIO": {
-      "bid": 0.7276,
-      "ask": 0.7312,
-      "mid": 0.7294
+      "bid": 0.7278,
+      "ask": 0.7314,
+      "mid": 0.7296
     },
     "MXN": {
-      "bid": 1.4573,
-      "ask": 1.4646,
-      "mid": 1.461
+      "bid": 1.4508,
+      "ask": 1.4581,
+      "mid": 1.4544
     },
     "CRC": {
       "bid": 0.0588,
-      "ask": 0.0591,
-      "mid": 0.059
+      "ask": 0.059,
+      "mid": 0.0589
     },
     "PAB": {
-      "bid": 26.8927,
-      "ask": 27.0272,
-      "mid": 26.9599
+      "bid": 26.8943,
+      "ask": 27.0288,
+      "mid": 26.9616
     }
   },
   "bancos": {
     "promerica": {
       "nombre": "Promerica",
-      "bid": 26.8927,
-      "ask": 27.0272
+      "bid": 26.8943,
+      "ask": 27.0288
     },
     "ficohsa": {
       "nombre": "Ficohsa",
-      "bid": 26.8927,
-      "ask": 27.0272
+      "bid": 26.8943,
+      "ask": 27.0288
     },
     "occidente": {
       "nombre": "Banco de Occidente",
-      "bid": 26.8927,
-      "ask": 27.0272
+      "bid": 26.8943,
+      "ask": 27.0288
     },
     "atlantida": {
       "nombre": "Banco Atlántida",
-      "bid": 26.8927,
-      "ask": 27.0272
+      "bid": 26.8943,
+      "ask": 27.0288
     }
   },
   "_legacy_rates_for_compat": {
-    "USD": 26.9599,
-    "EUR": 30.0255,
-    "GTQ": 3.5106,
-    "NIO": 0.7294,
-    "MXN": 1.461,
-    "CRC": 0.059,
-    "PAB": 26.9599
+    "USD": 26.9616,
+    "EUR": 30.0253,
+    "GTQ": 3.513,
+    "NIO": 0.7296,
+    "MXN": 1.4544,
+    "CRC": 0.0589,
+    "PAB": 26.9616
   }
 }
