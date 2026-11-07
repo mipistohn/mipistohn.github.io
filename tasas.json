@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T18:40:06.859Z",
+  "updated_at": "2026-11-07T00:30:21.932Z",
   "base": "HNL",
   "format_version": 2,
   "note": "format_version 2: cada moneda tiene { bid, ask, mid }. bid=tasa compra del banco (cuando TÚ vendes esa moneda), ask=tasa venta (cuando TÚ compras). USD es la mediana de los bancos de \"bancos\" (o el BCH si ninguno responde); el resto deriva de la referencia internacional con spread 0.5%.",
@@ -49,6 +49,11 @@
     },
     "ficohsa": {
       "nombre": "Ficohsa",
+      "bid": 26.9101,
+      "ask": 27.0447
+    },
+    "occidente": {
+      "nombre": "Banco de Occidente",
       "bid": 26.9101,
       "ask": 27.0447
     },
