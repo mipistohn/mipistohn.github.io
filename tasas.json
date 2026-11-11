@@ -1,24 +1,24 @@
 {
-  "updated_at": "2026-11-11T00:57:01.401Z",
+  "updated_at": "2026-11-11T18:59:32.122Z",
   "base": "HNL",
   "format_version": 2,
   "note": "format_version 2: cada moneda tiene { bid, ask, mid }. bid=tasa compra del banco (cuando TÚ vendes esa moneda), ask=tasa venta (cuando TÚ compras). USD es la mediana de los bancos de \"bancos\" (o el BCH si ninguno responde); el resto deriva de la referencia internacional con spread 0.5%.",
   "source": "Bancos de Honduras (USD) + https://open.er-api.com/v6/latest/USD",
   "rates": {
     "USD": {
-      "bid": 26.9161,
-      "ask": 27.0507,
-      "mid": 26.9834
+      "bid": 26.9328,
+      "ask": 27.0675,
+      "mid": 27.0001
     },
     "EUR": {
-      "bid": 30.0613,
-      "ask": 30.2119,
-      "mid": 30.1366
+      "bid": 30.0053,
+      "ask": 30.1557,
+      "mid": 30.0805
     },
     "GTQ": {
-      "bid": 3.5078,
-      "ask": 3.5254,
-      "mid": 3.5166
+      "bid": 3.507,
+      "ask": 3.5246,
+      "mid": 3.5158
     },
     "NIO": {
       "bid": 0.7286,
@@ -26,50 +26,50 @@
       "mid": 0.7304
     },
     "MXN": {
-      "bid": 1.4445,
-      "ask": 1.4518,
-      "mid": 1.4482
+      "bid": 1.4412,
+      "ask": 1.4484,
+      "mid": 1.4448
     },
     "CRC": {
       "bid": 0.0592,
       "ask": 0.0595,
-      "mid": 0.0593
+      "mid": 0.0594
     },
     "PAB": {
-      "bid": 26.9161,
-      "ask": 27.0507,
-      "mid": 26.9834
+      "bid": 26.9328,
+      "ask": 27.0675,
+      "mid": 27.0001
     }
   },
   "bancos": {
     "promerica": {
       "nombre": "Promerica",
-      "bid": 26.9161,
-      "ask": 27.0507
+      "bid": 26.9328,
+      "ask": 27.0675
     },
     "ficohsa": {
       "nombre": "Ficohsa",
-      "bid": 26.9161,
-      "ask": 27.0507
+      "bid": 26.9328,
+      "ask": 27.0675
     },
     "occidente": {
       "nombre": "Banco de Occidente",
-      "bid": 26.9161,
-      "ask": 27.0507
+      "bid": 26.9328,
+      "ask": 27.0675
     },
     "atlantida": {
       "nombre": "Banco Atlántida",
-      "bid": 26.9161,
-      "ask": 27.0507
+      "bid": 26.9328,
+      "ask": 27.0675
     }
   },
   "_legacy_rates_for_compat": {
-    "USD": 26.9834,
-    "EUR": 30.1366,
-    "GTQ": 3.5166,
+    "USD": 27.0001,
+    "EUR": 30.0805,
+    "GTQ": 3.5158,
     "NIO": 0.7304,
-    "MXN": 1.4482,
-    "CRC": 0.0593,
-    "PAB": 26.9834
+    "MXN": 1.4448,
+    "CRC": 0.0594,
+    "PAB": 27.0001
   }
 }
